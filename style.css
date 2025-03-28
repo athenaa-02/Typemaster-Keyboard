@@ -161,3 +161,276 @@ aside.box article{
 footer{
     height: 90px;
 }
+
+
+
+
+
+
+/* responsive under 1155px */
+
+@media screen and (max-width: 1155px) {
+    h1{
+       font-size: 48px; 
+       line-height: 56px;
+    }
+    article.improve{
+        font-size: 16px;
+        width: 339px;
+    }
+    div.first_child{
+       padding-left: 70px;
+    }
+    /* second child */
+    div.second_child{
+        width: 478px;
+        border-radius: 18px;
+    }
+    img.red_btn_keyboard{
+       position: absolute;
+       right: -150px;
+    }
+
+    section.text_image{
+       justify-content: space-between;
+       margin-top: 62px;
+       position: relative;
+       overflow: hidden;
+    }
+
+    /* section second */
+section.two_images{
+   margin: 50px;
+   justify-content: space-around;
+   flex-direction: column;
+}
+aside.photos{
+   justify-content: space-around;
+}
+img.orange_img{
+   width: 300px;
+}
+img.laptop_keyboard{
+   width: 600px;
+}
+
+aside.text{
+   flex-direction: row;
+   gap: 150px;
+   align-items: center;
+   padding-left: 35px ;
+}
+
+article.wireless_txt{
+   width: 400px;
+   height: 88px;
+} 
+
+/* third section */
+section.four_boxes{
+   margin-top: 144px;
+}
+}
+
+
+
+
+/* responsive under 820px */
+
+@media screen and (max-width: 820px) {
+   h1{
+      font-size: 45px; 
+   }
+   article.improve{
+       width: 300px;
+   }
+   div.first_child{
+      padding-left: 60px;
+   }
+   button{
+       font-weight: 600;
+       font-size: 15px;
+       width: 155px;
+       height: 50px;
+   }   
+   p.release{
+       font-size: 15px;
+   }
+   div.buttons{
+       gap: 30px;
+   }
+   img.red_btn_keyboard{
+      right: -230px;
+   }
+   
+
+   /* section second */
+section.two_images{
+  margin: 40px;
+}
+img.orange_img{
+  height: 350px;
+}
+img.laptop_keyboard{
+  width: 445px;
+  height: 350px;
+}
+
+aside.text{
+  gap: 70px;
+  align-items: center;
+  padding-left: 35px ;
+}
+
+article.wireless_txt{
+  width: 400px;
+  height: 88px;
+} 
+}
+
+
+
+/* responsive under 675px */
+
+@media screen and (max-width:677px){
+   section.text_image{
+       flex-direction: column;
+       gap: 64px;
+   }
+   article.improve{
+       width: 430px;
+       font-size: 18px;
+   }
+   img.red_btn_keyboard{
+       right: -10px;
+    }
+    button{
+       font-weight: 700;
+       font-size: 16px;
+       width: 175px;
+       height: 58px;
+   }
+   div.first_child{
+       padding-left: 80px;
+   }
+    
+    /* section second text_image */
+section.two_images{
+   margin: 25px 25px 75px 0;
+   gap: 75px;
+}
+
+aside.text{
+   flex-direction: column;
+   gap: 24px;
+}
+aside.text h2{
+   width: 300px;
+   height: 104px;
+   text-align: center;
+   font-weight: 900;
+   line-height: 36px;
+}
+article.wireless_txt{
+   width: 400px;
+   height: 104px;
+   text-align: center;
+   line-height: 26px;
+   font-size: 18px;
+} 
+section.four_boxes{
+   margin-top: 110px;
+}
+}
+
+
+
+
+/* responsive under 540px */
+
+@media screen and (max-width: 540px) {
+   header{
+       /* justify-content: space-between; */
+       padding: 10px;
+   }
+   h1{
+       font-size: 45px; 
+    }
+    article.improve{
+        width: 300px;
+        font-size: 16px;
+    }
+    div.first_child{
+        padding-left: 25px;
+    }
+    button{
+        font-weight: 600;
+        font-size: 15px;
+        width: 155px;
+        height: 50px;
+    }   
+    div.buttons{
+        gap: 30px;
+    }
+    div.second_child{
+        overflow: hidden;
+    }
+    img.red_btn_keyboard{
+       right: -15px;
+       width: 400px;
+       height: 400px;  
+    }
+    
+    
+
+    /* section second */
+section.two_images{
+   margin: 24px 24px 0 0;
+}
+img.orange_img{
+   width: 200px;
+   height: 250px;
+}
+img.laptop_keyboard{
+   width: 230px;
+   height: 250px;
+   border-radius: 25px;
+}
+
+aside.text{
+   gap: 28px;
+}
+
+article.wireless_txt{
+   width: 320px;
+   height: 104px;
+} 
+}
+
+
+
+/* responsive under 390px */
+
+@media screen and (max-width: 390px) {
+   img.red_btn_keyboard{
+       right: -15px;
+       width: 320px;
+       height: 320px;  
+    }
+    section.two_images{
+       margin: 0;
+    }
+    img.orange_img{
+       width: 150px;
+       height: 200px;
+    }
+    img.laptop_keyboard{
+       width: 190px;
+       height: 200px;
+    }
+    
+    article.wireless_txt{
+       width: 320px;
+       height: 104px;
+    } 
+}
