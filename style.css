@@ -86,9 +86,7 @@ div.buttons{
 
 /* second child */
 div.second_child{
-    width: 540px;
-    height: 480px;
-    border: 15px;
+    border-radius: 18px;
 }
 
 section.text_image{
