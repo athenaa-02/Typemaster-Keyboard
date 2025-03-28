@@ -86,6 +86,8 @@ div.buttons{
 
 /* second child */
 div.second_child{
+    width: 540px;
+    height: 480px;
     border-radius: 18px;
 }
 
@@ -414,6 +416,9 @@ article.wireless_txt{
        right: -15px;
        width: 320px;
        height: 320px;  
+    }
+        div.second_child{
+        height: 360px;
     }
     section.two_images{
        margin: 0;
